@@ -1,11 +1,11 @@
 CC = clang
 
-SRC = union.c
-DEST = union
+SRC = clock.c
+DEST = clock
 
 all: $(DEST)
 
-union: union.c
+clock: clock.c
 	$(CC) $(SRC) -o $(DEST)
 
 run:
