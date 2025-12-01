@@ -18,7 +18,7 @@ void gt(char *buf, size_t size) {
   time(&rawtime);
   timeinfo = localtime(&rawtime);
 
-  strftime(buf, size, "%H:%M", timeinfo);
+  strftime(buf, size, "%H:%M:%S", timeinfo);
 }
 
 int main(int argc, char *argv[]) {
